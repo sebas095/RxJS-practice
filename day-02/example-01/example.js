@@ -1,3 +1,4 @@
+// https://medium.com/@jorgeucano/30-d%C3%ADas-con-rxjs-d%C3%ADa-2-557e05c4db96
 //javascript puro "funcion impura"
 // creamos el contador
 let countJs = 0;
