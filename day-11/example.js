@@ -2,14 +2,14 @@
 const subject = new rxjs.BehaviorSubject(0); // valor inicial
 
 subject.subscribe({
-  next: (v) => console.log("Observer A " + v),
+  next: (v) => console.log("Observer A: " + v),
 });
 
 subject.next(1);
 subject.next(2);
 
 subject.subscribe({
-  next: (v) => console.log("Observer B " + v),
+  next: (v) => console.log("Observer B: " + v),
 });
 
 subject.next(3);
